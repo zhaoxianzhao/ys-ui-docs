@@ -1,0 +1,31 @@
+/* .vitepress/theme/custom.css */
+:root {
+  /* 主题 */
+  --vp-c-brand: #409eff;
+  /* 首页 */
+  --vp-home-hero-name-color: #409eff;
+  --vp-button-brand-border: #409eff;
+  --vp-button-brand-bg: #409eff;
+  /* sidebar 选中样式 */
+  --vp-c-indigo-1: #409eff;
+
+}
+.el-table__header,.el-table__body{
+  margin: 0 !important;
+}
+table {
+  width: 100%;
+  display: table !important;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+}
+.ys-table-md{
+  th,td{
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
+.el-pager{
+  padding-left: 0px !important;
+}
